@@ -1,0 +1,29 @@
+{
+  "name": "delog.js",
+  "version": "0.1.0",
+  "description": "Logger library for Node.js and Browser",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.umd.js",
+      "import": "./dist/index.es.js"
+    }
+  },
+  "types": "types/index.d.ts",
+  "scripts": {
+    "dev": "vite build --watch --mode=development --minify=false",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "author": "lanyueos@qq.com",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.2",
+    "vite": "^2.9.9",
+    "vite-plugin-dts": "^1.2.0"
+  }
+}
