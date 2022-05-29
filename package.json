@@ -1,6 +1,6 @@
 {
   "name": "delog.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Logger library for Node.js and Browser",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
@@ -11,14 +11,18 @@
     }
   },
   "types": "types/index.d.ts",
-  "files": ["dist", "types"],
+  "files": [
+    "dist",
+    "types"
+  ],
   "scripts": {
     "dev": "vite build --watch --mode=development --minify=false",
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "delog.js", "logger"
+    "delog.js",
+    "logger"
   ],
   "github": "https://github.com/mengdu/delog.js",
   "repository": {
