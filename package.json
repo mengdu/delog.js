@@ -11,14 +11,23 @@
     }
   },
   "types": "types/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "dev": "vite build --watch --mode=development --minify=false",
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "logger"
+    "delog.js", "logger"
   ],
+  "github": "https://github.com/mengdu/delog.js",
+  "repository": {
+    "type": "https",
+    "url": "git+https://github.com/mengdu/delog.js"
+  },
+  "bugs": {
+    "url": "https://github.com/mengdu/m-message/issues"
+  },
   "author": "lanyueos@qq.com",
   "license": "MIT",
   "devDependencies": {
