@@ -11,7 +11,7 @@
     }
   },
   "types": "types/index.d.ts",
-  "files": ["dist"],
+  "files": ["dist", "types"],
   "scripts": {
     "dev": "vite build --watch --mode=development --minify=false",
     "build": "vite build",
